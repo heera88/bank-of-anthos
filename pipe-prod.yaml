@@ -1,6 +1,6 @@
 ######### Sample Build file that 
 ######### 1) applies manifests in a folder
-####### 2) deletes existing pods to spin up new ones 
+######## 2) deletes existing pods to spin up new ones 
 steps:
 - name: 'gcr.io/cloud-builders/kubectl'
   id: Deploy
